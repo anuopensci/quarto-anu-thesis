@@ -1,0 +1,70 @@
+title: ANU Thesis
+author: Emi Tanaka
+version: 1.0.0
+quarto-required: ">=1.4.5"
+
+contributes:
+  project:
+    project:
+      type: book
+    book:
+        sidebar:
+          contents: auto
+          search: true
+          style: docked
+          background: light
+    format: anu-thesis-html
+  formats:
+    common:
+      filters:
+       - latex-environment
+      environments: flushright
+      date-format: "Do MMMM YYYY"
+      toc: true
+      published-title: "Date"
+      number-sections: true
+      format-resources:
+       - assets/intro.qmd
+       - assets/conclusion.qmd
+       - assets/disclaimer.qmd
+       - assets/acknowledgements.qmd
+       - assets/signature.png
+    html:
+      toc-location: left
+      theme: [custom.scss]
+      css: assets/css/all.css
+      template-partials:
+       - assets/title-block.html
+       - assets/toc.html
+
+    pdf:
+      #include-before-body: before-body.tex
+      #include-in-header: header.tex
+      documentclass: book
+      classoption: ["oneside", "openany", "12pt", "onecolumn"]
+      lof: true
+      lot: true
+      linestretch: 1.2
+      mainfont: "Public Sans"
+      geometry:
+      - top=30mm
+      - left=25mm
+      - right=25mm
+      - bottom=30mm
+      papersize: a4
+      titlepage-geometry:
+      - top=3in
+      - bottom=1in
+      - right=1in
+      - left=1in
+      shift-heading-level-by: -1
+      anulogo: "assets/latex/ANU_Primary_Horizontal_GoldBlack.eps"
+      format-resources:
+        - assets/latex/anuthesis.sty
+      template-partials:
+      - assets/latex/before-title.tex
+      - assets/latex/before-body.tex
+      - _titlepage.tex
+      - assets/latex/toc.tex
+
+

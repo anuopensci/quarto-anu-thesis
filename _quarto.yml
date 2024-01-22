@@ -1,0 +1,32 @@
+project:
+  type: anu-thesis
+  output-dir: docs
+
+book:
+   title: "ANU Thesis Template"
+   subtitle: "via Quarto"
+   chapters:
+     - index.qmd
+     - disclaimer.qmd
+     - acknowledgements.qmd
+     - intro.qmd
+     - conclusion.qmd
+   page-footer: "Copyright © 2024"
+
+author: Your Name
+date: today
+degree: "Doctor of Philosophy" # Change this to Honours or Masters as needed
+school: "Research School of Spectacular Sciences"
+#date-modified: last-modified
+#date-submitted: today
+#date-approved: today
+keywords:
+  - reproducible research
+  - open science
+
+format:
+  html: default
+  #anu-thesis-html: default
+  anu-thesis-pdf:
+    keep-tex: false
+    #classoption: twoside

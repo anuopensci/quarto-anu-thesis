@@ -1,0 +1,77 @@
+\usepackage{anuthesis}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{amscd}
+\usepackage{physics}
+\usepackage{rotating} % Rotating table
+\usepackage[toc,page]{appendix}
+\usepackage{changepage} % to adjust page width for fat tables
+%\usepackage{titlepic}
+\usepackage{setspace}
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{}{,} % to follow A&A style
+\usepackage[flushleft]{threeparttable}
+\usepackage{threeparttablex}
+\usepackage{multirow}
+\usepackage{bbding}
+
+\usepackage{cleveref}
+\crefformat{footnote}{#2\footnotemark[#1]#3}
+\usepackage{sidecap}
+ \renewcommand{\bottomfraction}{0.7}
+
+\usepackage{datetime}
+
+%\newcommand{\thesisdate}{$date$}
+%\newcommand{\fullthesisdate}{$date$}
+%\newcommand{\resubmissiondate}{$date$}
+%\newcommand{\thesisyear}{$date.year$}
+
+\def\TODO#1{{\color{red}{\bf [TODO:} {\it{#1}}{\bf ]}}}
+
+%%%%%% AUTHORS - PLACE YOUR OWN PACKAGES HERE %%%%%
+
+\usepackage{color}
+\usepackage[normalem]{ulem}
+
+% These are autoref macros
+\def\chapterautorefname{Chapter}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
+\def\figureautorefname{Figure}
+\def\tableautorefname{Table}
+\def\equationautorefname{equation}
+
+% There are editing macros
+\newcommand{\red}[1]{{\textcolor{red}{#1}}}
+\newcommand{\blue}[1]{{\textcolor{blue}{#1}}}
+\newcommand{\cyan}[1]{{\textcolor{cyan}{#1}}}
+\newcommand{\cut}[1]{{\red{\sout{#1}}}}
+\newcommand{\add}[1]{{\cyan{#1}}}
+
+% Autoref macros
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
+\def\figureautorefname{Figure}
+\def\tableautorefname{Table}
+\def\equationautorefname{equation}
+\newcommand{\aref}[1]{\hyperref[#1]{Appendix~\ref{#1}}}
+
+% Only include extra packages if you really need them. Common packages are:
+%\usepackage{caption}
+%\usepackage{subcaption}
+%\captionsetup{compatibility=false} %https://tex.stackexchange.com/questions/31906/subcaption-package-compatibility-issue
+\usepackage{multicol}        % Multi-column entries in tables
+\usepackage{booktabs} %to include pandas latex tables
+\usepackage{float}
+
+
+

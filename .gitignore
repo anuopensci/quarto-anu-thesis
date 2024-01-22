@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+template.html
+template_files
+^template.pdf$
+README_files
+
+/.quarto/
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto

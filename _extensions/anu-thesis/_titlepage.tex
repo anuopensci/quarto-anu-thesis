@@ -1,0 +1,50 @@
+%%% TITLE PAGE:
+\pagenumbering{roman}  % first use Roman numerals for page numbers
+
+\begin{titlepage}
+	\begin{center}
+		\vspace*{0cm}
+		{ \fontsize{24}{10} \selectfont $title$} \\
+		\vspace{0.3cm}
+		{ \fontsize{20}{10} \selectfont $subtitle$} \\
+
+		\vspace{2.0cm}
+		{\bf \huge $author$}\\
+		%\vfill
+		\vspace{2cm}
+		{\large A thesis submitted for the degree of}\\
+		$if(degree)$\vspace{0.5cm}
+		{\it \large $degree$}\\$endif$
+		\vspace{0.5cm}
+		{\large The Australian National University}\\
+		$if(school)$\vspace{0.5cm}
+		{ \large $school$} \par$endif$
+		\vspace{2.0cm}
+		\includegraphics[width=0.4\textwidth]{$anulogo$}\\
+		\vspace{2.0cm}
+		$if(date)${\large $date$}$endif$
+
+		$if(date-modified)${\bf Last modified:} $date-modified$\\$endif$
+		$if(date-submitted)${\bf Submitted:} $date-submitted$\\$endif$
+		$if(date-approved)${\bf Approved:} $date-approved$\\$endif$
+		\vspace{1.75cm}
+		{\large  \textcopyright\ Copyright by $author$,  $if(copyrightyear)$$copyrightyear$$else$\the\year$endif$\\}
+		\vspace{0.5cm}
+		{\large All Rights Reserved}
+    		%\maketitle
+	\end{center}
+\end{titlepage}
+
+\sloppy
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'PublicSans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/PublicSans-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PublicSans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: block;
+  src: url("../webfonts/PublicSans-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PublicSans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: block;
+  src: url("../webfonts/PublicSans-LightItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PublicSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/PublicSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PublicSans';
+  font-style: regular;
+  font-weight: 800;
+  font-display: block;
+  src: url("../webfonts/PublicSans-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PublicSans';
+  font-style: italic;
+  font-weight: 800;
+  font-display: block;
+  src: url("../webfonts/PublicSans-SemiBoldItalic.ttf") format("truetype"); }
+
+
+* { font-family: 'PublicSans'; }
+
+
+.logo {
+  max-width:70px;
+}
+
+#quarto-document-content {
+  border-left: 2px solid #BE830E;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+
+
+header:before {
+  background-image: url("../images/anu-crest-gold.png");
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 70px;
+  display: inline-block;
+  padding-left: 75px;
+  content: "Australian National University";
+}
+
+.quarto-title-meta-heading, .block-title {
+  font-weight: bold!important;
+  color: #BE830E;
+}
+
+.author {
+  font-weight: bold!important;
+  color: black;
+}
+.affiliation {
+  font-style: italic!important;
+}
+
+.quarto-title-anu-block {
+  background-color: #F5EDDE;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+
+figcaption {
+  text-align: left!important;
+}
