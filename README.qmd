@@ -10,22 +10,13 @@ This repository contains the Quarto template for ANU thesis.
 
 _**Work-in-Progress**_
 
-## Getting started
 
-1. Install [Quarto](https://quarto.org/docs/get-started/).
-2. You may need to install Public Sans font if you do not have it. You can find it [here](https://github.com/anuopensci/quarto-anu-report/tree/main/_extensions/anu-report/assets/webfonts).
-3. The easiest way to edit and render the document is using the [RStudio IDE](https://posit.co/download/rstudio-desktop/). If you prefer not to install R, then you can use VS Code instead.
-4. From the Terminal run the following command
+To use this template, either fork this repository or download it. 
 
-```bash
-quarto use template anuopensci/quarto-anu-thesis
-```
-
-This will install the extension and create an example qmd file that you can use as a starting place for your report.
 
 ## Format Options
 
-There are three formats available: pdf and html. 
+There are two formats available: pdf and html. 
 
 
 
@@ -36,37 +27,39 @@ There are three formats available: pdf and html.
 library(quarto)
 library(magick)
 # Render template
-quarto_render(input = "template.qmd", output_format = "all")
-# 
-# webshot2::webshot("template.html",
-#                   file = "examples/template-html.png",
-#                   vwidth = 1000,
-#                   vheight = 900,
-#                   zoom = 0.7, 
-#                   cliprect = "viewport")
-# 
-# image_read("examples/template-html.png") |>
-#   image_montage(geometry = "x2000+25+35", 
-#                 tile = "1x1", 
-#                 bg = "grey92", 
-#                 shadow = TRUE) |>
-#   image_convert(format = "png") |>
-#   image_write("examples/template-html.png")
+quarto_render(output_format = "all")
 
+webshot2::webshot("docs/index.html",
+                  file = "docs/example-html.png",
+                  vwidth = 1000,
+                  vheight = 900,
+                  zoom = 0.7,
+                  cliprect = "viewport")
 
-# Convert rendered PDF to PNG
-image_read_pdf("template.pdf") |>
-  image_montage(geometry = "x2000+25+35", 
-                tile = "1x1", 
-                bg = "grey92", 
+image_read("docs/example-html.png") |>
+  image_montage(geometry = "x2000+25+35",
+                tile = "1x1",
+                bg = "grey92",
                 shadow = TRUE) |>
   image_convert(format = "png") |>
-  image_write("examples/template-pdf.png")
-# Move pdf to examples folder
-fs::file_move("template.pdf", "examples/template.pdf")
+  image_write("docs/example-html.png")
+# 
+# 
+# # Convert rendered PDF to PNG
+image_read_pdf("docs/thesis.pdf") |>
+  image_montage(geometry = "x2000+25+35",
+                tile = "1x1",
+                bg = "grey92",
+                shadow = TRUE) |>
+  image_convert(format = "png") |>
+  image_write("docs/example-pdf.png")
 ```
+
+### `anu-thesis-html`
+
+[![](docs/example-html.png)]()
 
 
 ### `anu-thesis-pdf`
 
-[![](examples/template-pdf.png)](examples/template.pdf)
+[![](docs/example-pdf.png)](docs/thesis.pdf)

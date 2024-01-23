@@ -5,6 +5,7 @@ project:
 book:
    title: "ANU Thesis Template"
    subtitle: "via Quarto"
+   output-file: "thesis"
    chapters:
      - index.qmd
      - disclaimer.qmd

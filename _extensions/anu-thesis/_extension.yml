@@ -23,12 +23,6 @@ contributes:
       toc: true
       published-title: "Date"
       number-sections: true
-      format-resources:
-       - assets/intro.qmd
-       - assets/conclusion.qmd
-       - assets/disclaimer.qmd
-       - assets/acknowledgements.qmd
-       - assets/signature.png
     html:
       toc-location: left
       theme: [custom.scss]

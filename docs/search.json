@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ANU Thesis Template",
+    "section": "",
+    "text": "This report template is available at github.com/anuopensci/quarto-anu-thesis.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+    ]
+  },
+  {
+    "objectID": "disclaimer.html",
+    "href": "disclaimer.html",
+    "title": "Disclaimer",
+    "section": "",
+    "text": "I hereby declare that the work undertaken in this thesis has been conducted by me alone, except where indicated in the text. I conducted this work between MMM YYYY and MMM YYY, during which period I was a PhD student at the Australian National University. This thesis, in whole or any part of it, has not been submitted to this or any other university for a degree.\n\n\n\nYour Name\nJanuary 23, 2024",
+    "crumbs": [
+      "Disclaimer"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "I would like to express my sincere gratitude to my dog, Chuckles, for eating my research notes multiple times. If it wasn’t for you, I would have finished this thesis earlier.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "Reproducible research is an essential paradigm that promotes the idea that scientific investigations should be transparent, verifiable, and accessible to others. In an era where the scientific community faces concerns about the replicability of research findings, adopting reproducible research practices becomes imperative.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "conclusion.html",
+    "href": "conclusion.html",
+    "title": "3  Conclusion",
+    "section": "",
+    "text": "This report underscores the transformative impact of reproducible research on the scientific landscape, promoting a commitment to openness and accountability for the benefit of the entire research community.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Conclusion</span>"
+    ]
+  }
+]
