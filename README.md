@@ -8,10 +8,15 @@ This repository contains the Quarto template for ANU thesis.
 
 ***Work-in-Progress***
 
-To use this template, either click on the “use this template” button on
-the top right corner or download it. You can also fork the repository
-but it copies the entire git history of the repository, which is only
-necessary for those wishing to contribute to the template.
+## Getting started
+
+To use this template, either **click on the “use this template” button
+on the top right corner** or download it. You can also fork the
+repository but it copies the entire git history of the repository, which
+is only necessary for those wishing to contribute to the template.
+
+After making your own copy, you should change the parameters in the
+`_quarto.yml` file to reflect your own thesis.
 
 ## Format Options
 
