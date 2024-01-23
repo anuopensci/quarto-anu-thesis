@@ -3,8 +3,8 @@ project:
   output-dir: docs
 
 book:
-   title: "ANU Thesis Template"
-   subtitle: "via Quarto"
+   title: "ANU Thesis"
+   subtitle: "Quarto Template"
    output-file: "thesis"
    chapters:
      - index.qmd
@@ -12,7 +12,7 @@ book:
      - acknowledgements.qmd
      - intro.qmd
      - conclusion.qmd
-   page-footer: "Copyright © 2024"
+   page-footer: "Copyright © 2024, Your Name"
 
 author: Your Name
 date: today

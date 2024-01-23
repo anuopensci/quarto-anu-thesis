@@ -11,12 +11,13 @@ This repository contains the Quarto template for ANU thesis.
 _**Work-in-Progress**_
 
 
-To use this template, either fork this repository or download it. 
+To use this template, either click on the "use this template" button on the top right corner or download it. You can also fork the repository but it copies the entire git history of the repository, which is only necessary for those wishing to contribute to the template.
 
 
 ## Format Options
 
-There are two formats available: pdf and html. 
+This template outputs both the html and pdf version of the thesis. You can choose to render only one of them by commenting out the `format` option you don't want in the `_quarto.yml` file. 
+
 
 
 
@@ -55,11 +56,11 @@ image_read_pdf("docs/thesis.pdf") |>
   image_write("docs/example-pdf.png")
 ```
 
-### `anu-thesis-html`
+### HTML output
 
-[![](docs/example-html.png)]()
+[![](docs/example-html.png)](https://anuopensci.github.io/quarto-anu-thesis/)
 
 
-### `anu-thesis-pdf`
+### PDF output
 
 [![](docs/example-pdf.png)](docs/thesis.pdf)
