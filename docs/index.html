@@ -183,7 +183,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#benefits" id="toc-benefits" class="nav-link" data-scroll-target="#benefits">Benefits</a></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a></li>
+  <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link" data-scroll-target="#frequently-asked-questions">Frequently asked questions</a>
+  <ul class="collapse">
+  <li><a href="#what-about-overleaf" id="toc-what-about-overleaf" class="nav-link" data-scroll-target="#what-about-overleaf">What about Overleaf?</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/anuopensci/quarto-anu-thesis/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/anuopensci/quarto-anu-thesis/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -230,11 +238,49 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>This thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the <a href="https://quarto.org/">Quarto</a> document format.</p>
-<p>Quarto is a document format that supports the use of <a href="https://rmarkdown.rstudio.com/">R Markdown</a> and <a href="https://www.latex-project.org/">LaTeX</a> to produce dynamic documents.</p>
+<p>This thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the <a href="https://quarto.org/">Quarto</a> document format. It is highly recommended for students who code using Python, R or Julia and have many computational or analysis results in their thesis.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>This thesis template is available on GitHub at <a href="https://github.com/anuopensci/quarto-anu-thesis">github.com/anuopensci/quarto-anu-thesis</a>.</p>
+</div>
+</div>
+<section id="benefits" class="level2">
+<h2 class="anchored" data-anchor-id="benefits">Benefits</h2>
+<p>The benefits of using Quarto document include:</p>
+<ul>
+<li>It allows you to write your thesis in a simple markup language called <a href="https://www.markdownguide.org/">Markdown</a>. This means that you can focus on writing your thesis without having to worry about formatting.</li>
+<li>The document can be output to a variety of formats including PDF, HTML, Word, and LaTeX.</li>
+<li>Code can be easily embedded in the document and executed. This means that you can include the results of your analysis in your thesis without having to manually copy and paste them. This is a good reproducible and scientific practice.</li>
+<li>You can easily integrate with aspects of GitHub (edit, reporting an issue, etc).</li>
+</ul>
+<p>The above outlined benefits can also be considered as best practice. Version controlling and collaborative writing (via Git and GitHub) are important in managing multiple versions of your thesis and in collaborating with your supervisory team. Embedding code in your thesis is a good practice in reproducible research. Making your thesis in HTML format can allow for interactive web elements to be embedded while PDF format can be for general distribution and printing.</p>
+</section>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
+<p>There are several systems that you are expected to know to use this template. These include:</p>
+<ul>
+<li>Markdown syntax for writing</li>
+<li>Quarto or R Markdown syntax (note that these works for Python or Julia too) for embedding code</li>
+<li>(Optional) Git and GitHub for hosting</li>
+</ul>
+</section>
+<section id="frequently-asked-questions" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently asked questions</h2>
+<section id="what-about-overleaf" class="level3">
+<h3 class="anchored" data-anchor-id="what-about-overleaf">What about Overleaf?</h3>
+<p>ANU has a professional account for Overleaf, which is great for those that use LaTeX regularly. Unfortunately, there is no equivalent system with track changes in Quarto. You can output the tex file from Quarto document and use this in Overleaf. The changes made in this tex document however has to be manually transferred back to the Quarto document. If your main output is mainly mathematical and you have little to no code outputs, Overleaf is probably a better choice.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

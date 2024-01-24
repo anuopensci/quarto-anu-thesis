@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "ANU Thesis",
     "section": "",
-    "text": "Preface\nThis thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the Quarto document format.\nQuarto is a document format that supports the use of R Markdown and LaTeX to produce dynamic documents.\nThis thesis template is available on GitHub at github.com/anuopensci/quarto-anu-thesis.",
+    "text": "Preface\nThis thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the Quarto document format. It is highly recommended for students who code using Python, R or Julia and have many computational or analysis results in their thesis.",
     "crumbs": [
       "Preface"
     ]
@@ -68,6 +68,86 @@
     "text": "Allaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown\nPublishing System. https://CRAN.R-project.org/package=quarto.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "index.html#what-is-quarto",
+    "href": "index.html#what-is-quarto",
+    "title": "ANU Thesis",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\nQuarto is a document format that supports the use of R Markdown and LaTeX to produce dynamic documents.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#what-you-need-to-know",
+    "href": "index.html#what-you-need-to-know",
+    "title": "ANU Thesis",
+    "section": "What you need to know",
+    "text": "What you need to know\nQuarto is a document format that supports the use of R Markdown and LaTeX to produce dynamic documents.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "ANU Thesis",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThere are several systems that you are expected to know to use this. These include:\n\nMarkdown syntax\nQuarto or R Markdown syntax (note that these works for Python or Julia too)\n(Optional) Git and GitHub",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#benefits",
+    "href": "index.html#benefits",
+    "title": "ANU Thesis",
+    "section": "Benefits",
+    "text": "Benefits\nThe benefits of using Quarto document include:\n\nIt allows you to write your thesis in a simple markup language called Markdown. This means that you can focus on writing your thesis without having to worry about formatting.\nThe document can be output to a variety of formats including PDF, HTML, Word, and LaTeX.\nCode can be easily embedded in the document and executed. This means that you can include the results of your analysis in your thesis without having to manually copy and paste them. This is a good reproducible and scientific practice.\nYou can easily integrate with aspects of GitHub (edit, reporting an issue, etc).\n\nThe above outlined benefits can also be considered as best practice. Version controlling and collaborative writing (via Git and GitHub) are important in managing multiple versions of your thesis and in collaborating with your supervisory team. Embedding code in your thesis is a good practice in reproducible research. Making your thesis in HTML format can allow for interactive web elements to be embedded while PDF format can be for general distribution and printing.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "ANU Thesis",
+    "section": "Getting started",
+    "text": "Getting started\nThere are several systems that you are expected to know to use this template. These include:\n\nMarkdown syntax for writing\nQuarto or R Markdown syntax (note that these works for Python or Julia too) for embedding code\n(Optional) Git and GitHub for hosting",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#best-practice",
+    "href": "index.html#best-practice",
+    "title": "ANU Thesis",
+    "section": "Best practice",
+    "text": "Best practice",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#benefits-and-best-practice",
+    "href": "index.html#benefits-and-best-practice",
+    "title": "ANU Thesis",
+    "section": "Benefits and best practice",
+    "text": "Benefits and best practice\nThe benefits of using Quarto document include:\n\nIt allows you to write your thesis in a simple markup language called Markdown. This means that you can focus on writing your thesis without having to worry about formatting.\nThe document can be output to a variety of formats including PDF, HTML, Word, and LaTeX.\nCode can be easily embedded in the document and executed. This means that you can include the results of your analysis in your thesis without having to manually copy and paste them. This is a good reproducible and scientific practice.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#frequently-asked-questions",
+    "href": "index.html#frequently-asked-questions",
+    "title": "ANU Thesis",
+    "section": "Frequently asked questions",
+    "text": "Frequently asked questions\n\nWhat about Overleaf?\nANU has a professional account for Overleaf, which is great for those that use LaTeX regularly. Unfortunately, there is no equivalent system with track changes in Quarto. You can output the tex file from Quarto document and use this in Overleaf. The changes made in this tex document however has to be manually transferred back to the Quarto document. If your main output is mainly mathematical and you have little to no code outputs, Overleaf is probably a better choice.",
+    "crumbs": [
+      "Preface"
     ]
   }
 ]

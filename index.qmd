@@ -1,10 +1,38 @@
 # Preface {.unnumbered}
 
 
-This thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the [Quarto](https://quarto.org/) document format.
+This thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the [Quarto](https://quarto.org/) document format. It is highly recommended for students who code using Python, R or Julia and have many computational or analysis results in their thesis.
 
-Quarto is a document format that supports the use of [R Markdown](https://rmarkdown.rstudio.com/) and [LaTeX](https://www.latex-project.org/) to produce dynamic documents. 
+::: callout-note
 
 This thesis template is available on GitHub at [github.com/anuopensci/quarto-anu-thesis](https://github.com/anuopensci/quarto-anu-thesis).
 
+:::
 
+## Benefits 
+
+The benefits of using Quarto document include:
+
+- It allows you to write your thesis in a simple markup language called [Markdown](https://www.markdownguide.org/). This means that you can focus on writing your thesis without having to worry about formatting. 
+- The document can be output to a variety of formats including PDF, HTML, Word, and LaTeX.
+- Code can be easily embedded in the document and executed. This means that you can include the results of your analysis in your thesis without having to manually copy and paste them. This is a good reproducible and scientific practice.
+- You can easily integrate with aspects of GitHub (edit, reporting an issue, etc).
+
+
+The above outlined benefits can also be considered as best practice. Version controlling and collaborative writing (via Git and GitHub) are important in managing multiple versions of your thesis and in collaborating with your supervisory team. Embedding code in your thesis is a good practice in reproducible research. Making your thesis in HTML format can allow for interactive web elements to be embedded while PDF format can be for general distribution and printing.
+
+
+## Getting started
+
+There are several systems that you are expected to know to use this template. These include:
+
+- Markdown syntax for writing
+- Quarto or R Markdown syntax (note that these works for Python or Julia too) for embedding code
+- (Optional) Git and GitHub for hosting
+
+
+## Frequently asked questions 
+
+### What about Overleaf?
+
+ANU has a professional account for Overleaf, which is great for those that use LaTeX regularly. Unfortunately, there is no equivalent system with track changes in Quarto. You can output the tex file from Quarto document and use this in Overleaf. The changes made in this tex document however has to be manually transferred back to the Quarto document. If your main output is mainly mathematical and you have little to no code outputs, Overleaf is probably a better choice.
