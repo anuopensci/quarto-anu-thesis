@@ -1,6 +1,10 @@
+---
+engine: knitr
+---
+
 # Disclaimer {.unnumbered}
 
-I hereby declare that the work undertaken in this thesis has been conducted by me alone, except where indicated in the text. I conducted this work between MMM YYYY and MMM YYY, during which period I was a PhD student at the Australian National University. This thesis, in whole or any part of it, has not been submitted to this or any other university for a degree.
+I hereby declare that the work undertaken in this thesis has been conducted by me alone, except where indicated in the text. I conducted this work between MMM YYYY and MMM YYY, during which period I was a XXX student at the Australian National University. This thesis, in whole or any part of it, has not been submitted to this or any other university for a degree.
 
 <!---- For thesis by compilation, uncomment the following paragraph 
 
@@ -12,10 +16,9 @@ This thesis has been compiled as a Thesis by Compilation in accordance with rele
 
 ::: flushright
 
-![](signature.png){width="20%"}
 
-{{< meta author >}}
-{{< meta date >}}
+_{{< var author >}}_   
+_`r Sys.Date()`_
 
 :::
   

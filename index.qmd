@@ -1,6 +1,10 @@
+# Preface {.unnumbered}
 
 
+This thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the [Quarto](https://quarto.org/) document format.
 
-This report template is available at [github.com/anuopensci/quarto-anu-thesis](https://github.com/anuopensci/quarto-anu-thesis).
+Quarto is a document format that supports the use of [R Markdown](https://rmarkdown.rstudio.com/) and [LaTeX](https://www.latex-project.org/) to produce dynamic documents. 
+
+This thesis template is available on GitHub at [github.com/anuopensci/quarto-anu-thesis](https://github.com/anuopensci/quarto-anu-thesis).
 
 

@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "ANU Thesis",
     "section": "",
-    "text": "This report template is available at github.com/anuopensci/quarto-anu-thesis.",
+    "text": "Preface\nThis thesis template is intended for honours, masters or PhD students at the Australian National University (ANU) who wish to write their thesis using the Quarto document format.\nQuarto is a document format that supports the use of R Markdown and LaTeX to produce dynamic documents.\nThis thesis template is available on GitHub at github.com/anuopensci/quarto-anu-thesis.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+      "Preface"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "href": "disclaimer.html",
     "title": "Disclaimer",
     "section": "",
-    "text": "I hereby declare that the work undertaken in this thesis has been conducted by me alone, except where indicated in the text. I conducted this work between MMM YYYY and MMM YYY, during which period I was a PhD student at the Australian National University. This thesis, in whole or any part of it, has not been submitted to this or any other university for a degree.\n\n\n\nYour Name\nJanuary 23, 2024",
+    "text": "I hereby declare that the work undertaken in this thesis has been conducted by me alone, except where indicated in the text. I conducted this work between MMM YYYY and MMM YYY, during which period I was a XXX student at the Australian National University. This thesis, in whole or any part of it, has not been submitted to this or any other university for a degree.\n\n\nYour Name\n2024-01-24",
     "crumbs": [
       "Disclaimer"
     ]
@@ -30,23 +30,44 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "2  Introduction",
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "1  Introduction",
     "section": "",
     "text": "Reproducible research is an essential paradigm that promotes the idea that scientific investigations should be transparent, verifiable, and accessible to others. In an era where the scientific community faces concerns about the replicability of research findings, adopting reproducible research practices becomes imperative.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "conclusion.html",
-    "href": "conclusion.html",
-    "title": "3  Conclusion",
+    "objectID": "chapter2.html",
+    "href": "chapter2.html",
+    "title": "2  Method",
     "section": "",
     "text": "This report underscores the transformative impact of reproducible research on the scientific landscape, promoting a commitment to openness and accountability for the benefit of the entire research community.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Conclusion</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Method</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Appendix A — Tools",
+    "section": "",
+    "text": "This thesis was written using Quarto 1.4.545 (Allaire 2023) and the following system and R packages:\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.3.1 (2023-06-16)\n os       macOS Sonoma 14.2.1\n system   aarch64, darwin20\n ui       X11\n language (EN)\n collate  en_US.UTF-8\n ctype    en_US.UTF-8\n tz       Australia/Sydney\n date     2024-01-24\n pandoc   3.1.1 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/ (via rmarkdown)\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package     * version date (UTC) lib source\n cli           3.6.2   2023-12-11 [1] CRAN (R 4.3.1)\n digest        0.6.33  2023-07-07 [1] CRAN (R 4.3.0)\n evaluate      0.23    2023-11-01 [1] CRAN (R 4.3.1)\n fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.3.0)\n htmltools     0.5.7   2023-11-03 [1] CRAN (R 4.3.1)\n htmlwidgets   1.6.4   2023-12-06 [1] CRAN (R 4.3.1)\n jsonlite      1.8.8   2023-12-04 [1] CRAN (R 4.3.1)\n knitr         1.45    2023-10-30 [1] CRAN (R 4.3.1)\n later         1.3.2   2023-12-06 [1] CRAN (R 4.3.1)\n processx      3.8.3   2023-12-10 [1] CRAN (R 4.3.1)\n ps            1.7.5   2023-04-18 [1] CRAN (R 4.3.0)\n quarto        1.3     2023-09-19 [1] CRAN (R 4.3.1)\n Rcpp          1.0.12  2024-01-09 [1] CRAN (R 4.3.1)\n rlang         1.1.3   2024-01-10 [1] CRAN (R 4.3.1)\n rmarkdown     2.25    2023-09-18 [1] CRAN (R 4.3.1)\n rstudioapi    0.15.0  2023-07-07 [1] CRAN (R 4.3.0)\n sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.3.0)\n xfun          0.41    2023-11-01 [1] CRAN (R 4.3.1)\n yaml          2.3.8   2023-12-11 [1] CRAN (R 4.3.1)\n\n [1] /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library\n\n──────────────────────────────────────────────────────────────────────────────\n\n\n\n\n\n\nAllaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown Publishing System. https://CRAN.R-project.org/package=quarto.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Allaire, JJ. 2023. Quarto: R Interface to ’Quarto’ Markdown\nPublishing System. https://CRAN.R-project.org/package=quarto.",
+    "crumbs": [
+      "References"
     ]
   }
 ]

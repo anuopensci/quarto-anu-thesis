@@ -5,6 +5,7 @@ knitr:
     fig.path: "images/README-"
 ---
 
+
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
 # Quarto template for ANU Thesis
@@ -25,6 +26,7 @@ After making your own copy, you should change the parameters in the `_quarto.yml
 ## Format Options
 
 This template outputs both the html and pdf version of the thesis. You can choose to render only one of them by commenting out the `format` option you don't want in the `_quarto.yml` file. 
+
 
 
 
@@ -67,6 +69,7 @@ if(fs::file_exists("docs/thesis.pdf")) {
 }
 ```
 
+
 ### HTML output
 
 [![](images/example-html.png)](https://anuopensci.github.io/quarto-anu-thesis/)
@@ -75,3 +78,4 @@ if(fs::file_exists("docs/thesis.pdf")) {
 ### PDF output
 
 [![](images/example-pdf.png)](docs/thesis.pdf)
+

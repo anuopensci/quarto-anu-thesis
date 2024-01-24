@@ -26,8 +26,8 @@ option you don’t want in the `_quarto.yml` file.
 
 ### HTML output
 
-[![](docs/example-html.png)](https://anuopensci.github.io/quarto-anu-thesis/)
+[![](images/example-html.png)](https://anuopensci.github.io/quarto-anu-thesis/)
 
 ### PDF output
 
-[![](docs/example-pdf.png)](docs/thesis.pdf)
+[![](images/example-pdf.png)](docs/thesis.pdf)

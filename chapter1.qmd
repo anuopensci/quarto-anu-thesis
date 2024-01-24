@@ -1,3 +1,3 @@
-# Introduction
+# Introduction {#sec-intro}
 
 Reproducible research is an essential paradigm that promotes the idea that scientific investigations should be transparent, verifiable, and accessible to others. In an era where the scientific community faces concerns about the replicability of research findings, adopting reproducible research practices becomes imperative.

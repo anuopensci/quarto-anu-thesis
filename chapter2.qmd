@@ -1,4 +1,4 @@
-# Conclusion
+# Method {#sec-method}
 
 
 This report underscores the transformative impact of reproducible research on the scientific landscape, promoting a commitment to openness and accountability for the benefit of the entire research community.

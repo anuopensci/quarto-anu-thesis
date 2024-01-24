@@ -3,31 +3,34 @@ project:
   output-dir: docs
 
 book:
-   title: "ANU Thesis"
-   subtitle: "Quarto Template"
+   title: "{{< var title >}}"
+   subtitle: "{{< var subtitle >}}"
+   author: "{{< var author >}}"
+   date: today
    output-file: "thesis"
+   downloads: pdf
+   repo-url: https://github.com/anuopensci/quarto-anu-thesis
+   repo-actions: [edit, issue]
+   #cover-image: images/example-html.png
+   #cover-image-alt: "This is a cover image."
    chapters:
      - index.qmd
-     - disclaimer.qmd
+     - disclaimer.qmd # omit this if honours or masters by coursework
      - acknowledgements.qmd
-     - intro.qmd
-     - conclusion.qmd
+     - chapter1.qmd
+     - chapter2.qmd
+     - references.qmd
+   appendices:
+     - tools.qmd
    page-footer: "Copyright © 2024, Your Name"
 
-author: Your Name
-date: today
-degree: "Doctor of Philosophy" # Change this to Honours or Masters as needed
-school: "Research School of Spectacular Sciences"
-#date-modified: last-modified
-#date-submitted: today
-#date-approved: today
-keywords:
-  - reproducible research
-  - open science
+bibliography: ref.bib
+
+comments:
+  hypothesis: true
 
 format:
-  html: default
-  #anu-thesis-html: default
-  anu-thesis-pdf:
-    keep-tex: false
+  anu-thesis-html: default
+  #anu-thesis-pdf:
+    #keep-tex: false
     #classoption: twoside

@@ -1,0 +1,8 @@
+# Tools {#sec-tools}
+
+This thesis was written using [Quarto `r quarto::quarto_version()`](https://quarto.org/) [@quarto] and the following system and R packages:
+
+```{r}
+#| echo: false
+sessioninfo::session_info()
+```

@@ -3,16 +3,22 @@ author: Emi Tanaka
 version: 1.0.0
 quarto-required: ">=1.4.5"
 
+
+
 contributes:
   project:
     project:
       type: book
     book:
-        sidebar:
-          contents: auto
-          search: true
-          style: docked
-          background: light
+      page-navigation: true
+      favicon: "assets/ANU_Favicon_Inversed_Gold.png"
+      margin-header: |
+        ![](images/ANU_Primary_Vertical_GoldBlack.png){.logo}
+      sidebar:
+        contents: auto
+        search: true
+        style: docked
+        background: light
     format: anu-thesis-html
   formats:
     common:
@@ -24,13 +30,11 @@ contributes:
       published-title: "Date"
       number-sections: true
     html:
-      toc-location: left
       theme: [custom.scss]
       css: assets/css/all.css
+      html-math-method: katex
       template-partials:
        - assets/title-block.html
-       - assets/toc.html
-
     pdf:
       #include-before-body: before-body.tex
       #include-in-header: header.tex
