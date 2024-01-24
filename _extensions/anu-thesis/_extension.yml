@@ -38,6 +38,10 @@ contributes:
     pdf:
       #include-before-body: before-body.tex
       #include-in-header: header.tex
+      toc: true
+      number-sections: true
+      number-depth: 2
+      papersize: a4
       documentclass: book
       classoption: ["oneside", "openany", "12pt", "onecolumn"]
       lof: true
@@ -49,16 +53,16 @@ contributes:
       - left=25mm
       - right=25mm
       - bottom=30mm
-      papersize: a4
       titlepage-geometry:
       - top=3in
       - bottom=1in
       - right=1in
       - left=1in
-      shift-heading-level-by: -1
+      # shift-heading-level-by: -1
       anulogo: "assets/latex/ANU_Primary_Horizontal_GoldBlack.eps"
-      format-resources:
-        - assets/latex/anuthesis.sty
+      # format-resources:
+      #  - assets/latex/anuthesis.sty
+      cite-method: natbib
       template-partials:
       - assets/latex/before-title.tex
       - assets/latex/before-body.tex

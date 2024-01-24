@@ -2,41 +2,48 @@
 \pagenumbering{roman}  % first use Roman numerals for page numbers
 
 \begin{titlepage}
-	\begin{center}
-		\vspace*{0cm}
-		{ \fontsize{24}{10} \selectfont $title$} \\
-		\vspace{0.3cm}
-		{ \fontsize{20}{10} \selectfont $subtitle$} \\
-
-		\vspace{2.0cm}
-		{\bf \huge $author$}\\
-		%\vfill
-		\vspace{2cm}
-		{\large A thesis submitted for the degree of}\\
-		$if(degree)$\vspace{0.5cm}
-		{\it \large $degree$}\\$endif$
-		\vspace{0.5cm}
-		{\large The Australian National University}\\
-		$if(school)$\vspace{0.5cm}
-		{ \large $school$} \par$endif$
-		\vspace{2.0cm}
+  \begin{flushright}%
+    \vspace{50mm}
+    $if(degree)${\small A thesis submitted for the degree of {\it $degree$}}$endif$
+    \rule[1ex]{\textwidth}{1pt}\\
+    $if(date)${\fontsize{9}{0} $date$}\\$endif$
+    \vspace{25mm}
+    $if(title)${\fontsize{40}{44}\bfseries $title$\par}
+      \vspace{12mm}$endif$
+  $if(subtitle)$
+	\parbox{\textwidth}{
+	\begin{flushright}
+		\fontsize{28}{30} $subtitle$
+	\end{flushright}}
+	$endif$
+    \vfill
+    $if(author)${\fontsize{20}{0}\bfseries $author$}\\
+    \vspace{2mm}$endif$
+    $if(school)${\fontsize{8}{0} $school$}\\
+    \vspace{35mm}$endif$
+    $if(titlepage-supervisor)${\fontsize{10}{0}\bfseries supervised by}\\
+    $for(supervisor)$$supervisor$$sep$, $endfor$
+    $endif$
+    \vspace{2.0cm}
 		\includegraphics[width=0.4\textwidth]{$anulogo$}\\
-		\vspace{2.0cm}
-		$if(date)${\large $date$}$endif$
+ \end{flushright}%
 
-		$if(date-modified)${\bf Last modified:} $date-modified$\\$endif$
-		$if(date-submitted)${\bf Submitted:} $date-submitted$\\$endif$
-		$if(date-approved)${\bf Approved:} $date-approved$\\$endif$
-		\vspace{1.75cm}
-		{\large  \textcopyright\ Copyright by $author$,  $if(copyrightyear)$$copyrightyear$$else$\the\year$endif$\\}
-		\vspace{0.5cm}
-		{\large All Rights Reserved}
-    		%\maketitle
-	\end{center}
+ \clearpage\thispagestyle{empty}
+ \normalfont
+ \vspace*{\fill}
+ \noindent
+ \begin{tabular}{lp{10cm}}
+   $if(degree)${\bf $degree$ Thesis} & \\[2mm]$endif$
+   $if(author)${\bf Author:} & $author$\\[2mm]$endif$
+   $if(supervisor)${\bf Supervisors:} & $for(supervisor)$$supervisor$$sep$, $endfor$\\[2mm]$endif$
+   $if(url)${\bf URL:} & $url$\\[2mm]$endif$
+   $if(date-start)$$if(date-end)${\bf Project period:} & $date-start$ -- $date-end$ \\[2mm]$endif$$endif$
+ \end{tabular}\\[2mm]
+
+$if(school)$\noindent $school$\\$endif$
+\noindent Australian National University
+
 \end{titlepage}
-
-\sloppy
-
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 

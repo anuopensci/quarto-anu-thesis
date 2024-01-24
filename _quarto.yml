@@ -15,6 +15,7 @@ book:
    #cover-image-alt: "This is a cover image."
    chapters:
      - index.qmd
+     - abstract.qmd
      - disclaimer.qmd # omit this if honours or masters by coursework
      - acknowledgements.qmd
      - chapter1.qmd
@@ -28,9 +29,17 @@ bibliography: ref.bib
 
 comments:
   hypothesis: true
+degree: "{{< var degree >}}"
+school: "{{< var school >}}"
+date-start: "{{< var date-start >}}"
+date-end: "{{< var date-end >}}"
+titlepage-supervisor: true
+supervisor:
+  - Prof. Jane Smith
+  - Dr. John Smith
 
 format:
   anu-thesis-html: default
-  #anu-thesis-pdf:
-    #keep-tex: false
+  anu-thesis-pdf:
+    keep-tex: false
     #classoption: twoside

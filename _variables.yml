@@ -2,10 +2,9 @@ title: ANU Thesis
 subtitle: Quarto Template
 author: Your Name
 degree: Doctor of Philosophy # Change this to Honours or Masters as needed
-school: Research School of Spectacular Sciences
-#date-modified: last-modified
-#date-submitted: today
-#date-approved: today
+school: Research School of Spectacular Sciences # name of the enrolling unit
+date-start: 2024-01-01
+date-end: 2028-01-01
 keywords:
   - reproducible research
   - open science
