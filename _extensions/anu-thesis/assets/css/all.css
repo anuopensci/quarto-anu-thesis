@@ -41,9 +41,6 @@
   src: url("../webfonts/PublicSans-SemiBoldItalic.ttf") format("truetype"); }
 
 
-* { font-family: 'PublicSans'; }
-
-
 .logo {
   max-width:70px;
 }

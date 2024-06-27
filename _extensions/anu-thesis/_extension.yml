@@ -29,6 +29,7 @@ contributes:
       toc: true
       published-title: "Date"
       number-sections: true
+      mainfont: PublicSans
     html:
       theme: [custom.scss]
       css: assets/css/all.css
