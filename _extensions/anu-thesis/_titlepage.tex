@@ -3,12 +3,13 @@
 
 \begin{titlepage}
   \begin{flushright}%
-    \vspace{50mm}
-    $if(degree)${\small A thesis submitted for the degree of {\it $degree$}}$endif$
+    \vspace{40mm}
+    $if(degree)${\small A thesis submitted for the degree of {\it $degree$} \\
+    of the Australian National University}$endif$
     \rule[1ex]{\textwidth}{1pt}\\
     $if(date)${\fontsize{9}{0} $date$}\\$endif$
-    \vspace{25mm}
-    $if(title)${\fontsize{40}{44}\bfseries $title$\par}
+    \vspace{20mm}
+    $if(title)${\fontsize{30}{32}\bfseries $title$\par}
       \vspace{12mm}$endif$
   $if(subtitle)$
 	\parbox{\textwidth}{
@@ -20,13 +21,19 @@
     $if(author)${\fontsize{20}{0}\bfseries $author$}\\
     \vspace{2mm}$endif$
     $if(school)${\fontsize{8}{0} $school$}\\
-    \vspace{35mm}$endif$
+    \vspace{25mm}$endif$
     $if(titlepage-supervisor)${\fontsize{10}{0}\bfseries supervised by}\\
     $for(supervisor)$$supervisor$$sep$, $endfor$
     $endif$
     \vspace{2.0cm}
 		\includegraphics[width=0.4\textwidth]{$anulogo$}\\
+  		\vspace{8mm}
  \end{flushright}%
+ 
+ \begin{center}
+  \textcopyright Copyright by $author$\\
+  All Rights Reserved
+\end{center}
 
  \clearpage\thispagestyle{empty}
  \normalfont
